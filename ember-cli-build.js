@@ -1,17 +1,16 @@
-/* global require, module */
-var EmberApp = require('ember-cli/lib/broccoli/ember-addon');
+var EmberApp = require('ember-cli/lib/broccoli/ember-addon')
 
-module.exports = function(defaults) {
+module.exports = function (defaults) {
   var app = new EmberApp(defaults, {
     'ember-cli-mocha': {
-      useLintTree: false,
+      useLintTree: false
     },
     sassOptions: {
       includePaths: [
-        'bower_components/bourbon/app/assets/stylesheets',
+        'bower_components/bourbon/app/assets/stylesheets'
       ]
     }
-  });
+  })
 
   /*
    This build file specifes the options for the dummy test app of this
@@ -20,5 +19,5 @@ module.exports = function(defaults) {
    behave. You most likely want to be modifying `./index.js` or app's build file
    */
 
-  return app.toTree();
-};
+  return app.toTree()
+}

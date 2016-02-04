@@ -1,4 +1,4 @@
-/* globals blanket, module */
+/* globals blanket */
 
 var options = {
   modulePrefix: 'frost-svg',
@@ -19,9 +19,9 @@ var options = {
     reporters: ['teamcity', 'json', 'lcov'],
     autostart: true
   }
-};
+}
 if (typeof exports === 'undefined') {
-  blanket.options(options);
+  blanket.options(options)
 } else {
-  module.exports = options;
+  module.exports = options
 }

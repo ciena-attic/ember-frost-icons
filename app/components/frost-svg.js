@@ -1,1 +1,1 @@
-export { default } from 'frost-svg/pods/components/frost-svg/component';
+export { default } from 'ember-frost-svg/pods/components/frost-svg/component'

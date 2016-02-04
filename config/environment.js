@@ -1,9 +1,9 @@
-'use strict';
+'use strict'
 
-module.exports = function(/* environment, appConfig */) {
-	var ENV = {
-		podModulePrefix: 'frost-svg/pods'
-	};
+module.exports = function (/* environment, appConfig */) {
+  var ENV = {
+    podModulePrefix: 'frost-svg/pods'
+  }
 
-	return ENV;
-};
+  return ENV
+}
