@@ -1,0 +1,19 @@
+@import 'bower_components/bourbon/app/assets/stylesheets/bourbon';
+
+// TODO: replace with imported variables from ember-frost-css when available
+$frost-color-grey-5: #929497;
+$frost-color-blue-1: #009EEF;
+
+.frost-icon {
+  .frost-icon-chevron {
+    fill: $frost-color-grey-5;
+  }
+
+  .frost-icon-close-circle {
+	  fill: $frost-color-blue-1;
+  }
+
+  .frost-icon-link {
+	// No default fill - determined by the frost-link class
+  }
+}
