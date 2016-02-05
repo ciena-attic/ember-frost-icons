@@ -1,5 +1,5 @@
 {
-  "name": "ember-frost-svg",
+  "name": "ember-frost-icons",
   "version": "0.0.1",
   "description": "An inline-svg component and svg library for Frost projects",
   "directories": {
@@ -45,7 +45,8 @@
     "ember-truth-helpers": "1.1.0",
     "ember-try": "~0.0.8",
     "eslint": "^1.10.3",
-    "eslint-config-frost-standard": "^0.2.4"
+    "eslint-config-frost-standard": "^0.2.4",
+    "markdown-code-highlighting": "0.0.6"
   },
   "keywords": [
     "ember-addon",

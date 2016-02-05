@@ -1,8 +1,8 @@
 /* globals blanket */
 
 var options = {
-  modulePrefix: 'frost-svg',
-  filter: '//.*frost-svg/.*/',
+  modulePrefix: 'ember-frost-icons',
+  filter: '//.*ember-frost-icons/.*/',
   antifilter: '//.*(tests|template).*/',
   loaderExclusions: [],
   enableCoverage: true,

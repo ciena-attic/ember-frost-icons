@@ -6,8 +6,8 @@ import {
 import hbs from 'htmlbars-inline-precompile'
 
 describeComponent(
-  'frost-svg',
-  'Integration: FrostSvgComponent',
+  'frost-icon',
+  'Integration: FrostIconComponent',
   {
     integration: true
   },
@@ -18,13 +18,13 @@ describeComponent(
       // Handle any actions with this.on('myAction', function(val) { ... });
       // Template block usage:
       // this.render(hbs`
-      //   {{#frost-svg}}
+      //   {{#frost-icon}}
       //     template content
-      //   {{/frost-svg}}
+      //   {{/frost-icon}}
       // `);
 
       this.render(hbs`
-        {{frost-svg path='frost/launcher'}}
+        {{frost-icon icon='frost/launcher'}}
       `)
 
       expect(this.$()).to.have.length(1)

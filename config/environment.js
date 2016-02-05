@@ -2,7 +2,7 @@
 
 module.exports = function (/* environment, appConfig */) {
   var ENV = {
-    podModulePrefix: 'frost-svg/pods'
+    podModulePrefix: 'ember-frost-icons/pods'
   }
 
   return ENV

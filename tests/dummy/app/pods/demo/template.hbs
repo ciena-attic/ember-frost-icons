@@ -1,20 +1,33 @@
-{{#frost-tabs class=(if iframe 'iframe') on-change=(action 'tabSelected') selection=selectedTab}}
-	{{#frost-tab alias='Readme' id='readme'}}
-        <div id='content'></div>
-	{{/frost-tab}}
-	{{#frost-tab alias='Demo' id='demo' }}
+<h2>frost-icon</h2>
 
-        <div class="demo">
-			{{#each entries as |entry|}}
-                <div class="entry">
-                    <div class="title">
-						{{entry}}
-                    </div>
-                    <div class="content">
-						{{frost-svg path=entry}}
-                    </div>
-                </div>
-			{{/each}}
-        </div>
-	{{/frost-tab}}
-{{/frost-tabs}}
+{{format-markdown "```handlebars
+{{#frost-icon icon=<icon-name>}}
+```"
+}}
+
+The &lt;icon-name&gt; above can be any of the names shown below, for instance:
+
+{{format-markdown "```handlebars
+{{#frost-icon icon=\"frost/add\"}}
+```"
+}}
+
+<div class="background-chooser {{ backgroundColor }}-selected">
+  <h3>Background Color</h3>
+  {{#each backgroundColors as |bgColor index| }}
+    <button {{ action 'colorSelected' bgColor }} class="{{ bgColor }}"></button>
+  {{/each}}
+</div>
+
+<div class="demo">
+{{#each entries as |entry|}}
+  <div class="entry">
+    <div class="title">
+      {{format-markdown entry.markdown }}
+    </div>
+    <div class="content" class="{{ backgroundColor }}">
+      {{frost-icon icon=entry.icon}}
+    </div>
+  </div>
+{{/each}}
+</div>

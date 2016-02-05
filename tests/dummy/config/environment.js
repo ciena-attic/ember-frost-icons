@@ -39,7 +39,7 @@ module.exports = function (environment) {
   }
 
   if (environment === 'production') {
-    ENV.baseURL = '/ember-frost-svg'
+    ENV.baseURL = '/ember-frost-icons'
   }
 
   return ENV

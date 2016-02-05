@@ -4,16 +4,16 @@
 $frost-color-grey-5: #929497;
 $frost-color-blue-1: #009EEF;
 
-.frost-svg {
-  .frost-svg-chevron {
+.frost-icon {
+  .frost-icon-chevron {
     fill: $frost-color-grey-5;
   }
 
-  .frost-svg-close-circle {
+  .frost-icon-close-circle {
 	  fill: $frost-color-blue-1;
   }
 
-  .frost-svg-link {
+  .frost-icon-link {
 	// No default fill - determined by the frost-link class
   }
 }

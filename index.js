@@ -55,6 +55,6 @@ module.exports = {
 
   treeForPublic: function () {
     var svgRoot = path.join(this.root, 'public', 'svgs')
-    return svgstore(new Funnel(svgRoot), {outputFile: '/assets/frost-svgs.svg'})
+    return svgstore(new Funnel(svgRoot), {outputFile: '/assets/frost-icons.svg'})
   }
 }
