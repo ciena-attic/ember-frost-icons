@@ -1,7 +1,7 @@
 {
   "name": "ember-frost-icons",
   "version": "0.1.2",
-  "description": "An inline-svg component and svg library for Frost projects",
+  "description": "An inline-svg icon component and icon library for Frost projects",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -13,7 +13,7 @@
     "build": "ember build",
     "test": "npm run-script lint && ember test"
   },
-  "repository": "git@github.com:ciena-frost/ember-fr-svg.git",
+  "repository": "git@github.com:ciena-frost/ember-frost-icons.git",
   "engines": {
     "node": ">= 0.10.0"
   },
