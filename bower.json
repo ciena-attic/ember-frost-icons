@@ -8,7 +8,6 @@
     "ember-resolver": "~0.1.20",
     "jquery": "2.1.4",
     "loader.js": "ember-cli/loader.js#3.2.1",
-    "bourbon": "4.2.6",
     "ember-mocha": "~0.8.6",
     "lodash": "3.10.1",
     "marked": "^0.3.5",
