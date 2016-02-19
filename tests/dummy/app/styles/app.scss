@@ -1,11 +1,4 @@
-// TODO: re-enable this once ember-frost-css is available
-// @import 'frost/app';
-
-// TODO: replace these with referenes to ember-frost-css classes when available
-html, body {
-  font-family: 'Roboto, sans-serif';
-  color: rgb(102, 102, 102);
-}
+@import 'node_modules/ember-frost-css-core/scss/frost-core';
 
 .demo {
   display: flex;
@@ -119,4 +112,3 @@ html, body {
     @include selected-outline();
   }
 }
-

@@ -1,6 +1,4 @@
-// TODO: replace with imported variables from ember-frost-css when available
-$frost-color-grey-5: #929497;
-$frost-color-blue-1: #009EEF;
+@import 'node_modules/ember-frost-theme/scss/frost-theme';
 
 .frost-icon {
   .frost-icon-chevron {
