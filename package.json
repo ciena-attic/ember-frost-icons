@@ -2,6 +2,7 @@
   "name": "ember-frost-icons",
   "version": "1.0.3",
   "description": "An inline-svg icon component and icon library for Frost projects",
+  "frostGuideDirectory": "ui-components/icons",
   "directories": {
     "doc": "doc",
     "test": "tests"
