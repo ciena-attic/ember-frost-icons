@@ -10,11 +10,6 @@
 # ember-frost-icons <br /> [![Travis][ci-img]][ci-url] [![Coveralls][cov-img]][cov-url] [![NPM][npm-img]][npm-url]
 A collection of icons for frost
 
- * [Installation](#installation)
- * [API](#api)
- * [Examples](#examples)
- * [Development](#development)
-
 ## Installation
 ```
 ember install ember-frost-icons
