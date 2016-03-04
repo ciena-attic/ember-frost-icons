@@ -1,6 +1,6 @@
 {
   "name": "ember-frost-icons",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "An inline-svg icon component and icon library for Frost projects",
   "frostGuideDirectory": "ui-components/icons",
   "directories": {
@@ -23,7 +23,8 @@
     "Roxanne Panthaky (https://github.com/rox163)",
     "Olufemi Adeojo",
     "Gosia Hyndman (https://github.com/vesper2000)",
-    "Adam Meadows (https://github.com/job13er)"
+    "Adam Meadows (https://github.com/job13er)",
+    "Chris Stoll (https://github.com/cstolli)"
   ],
   "license": "MIT",
   "devDependencies": {
