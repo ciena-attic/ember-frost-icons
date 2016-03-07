@@ -37,7 +37,8 @@ npm install && bower install
 ```
 
 ### Development Server
-A dummy application for development is available under `ember-frost-icons/tests/dummy`.
+A dummy application for development is available under `ember-frost-icons/tests/dummy`. This allows you to easily change the background color and see how the icons look against various backgrounds.
+
 To run the server run `npm start` from the root of the repository and visit the app at http://localhost:4200.
 
 ### Testing
