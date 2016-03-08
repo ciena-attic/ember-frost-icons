@@ -9,7 +9,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . blueprints",
+    "lint": "eslint .",
     "start": "ember server",
     "build": "ember build",
     "test": "npm run-script lint && ember test"
