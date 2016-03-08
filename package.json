@@ -46,7 +46,7 @@
     "ember-frost-css-core": "^1.0.0",
     "ember-lodash": "^0.0.6",
     "ember-truth-helpers": "1.1.0",
-    "ember-try": "~0.0.8",
+    "ember-try": "^0.2.0",
     "eslint": "^1.10.3",
     "eslint-config-frost-standard": "^0.2.4",
     "markdown-code-highlighting": "0.0.6"
