@@ -13,6 +13,8 @@ export default Ember.Component.extend({
 
     if (_.isUndefined(svg)) {
       Ember.assert('The svg ' + this.get('icon') + ' does not exist')
+    } else if (typeof svg !== 'string') {
+      Ember.assert('The svg path ' + this.get('icon') + ' is incomplete')
     } else {
       let classes = _.isString(this.get('class')) ? ' ' + this.get('class') : ''
       svg = svg.replace('<svg', '<svg class="frost-icon' + classes + '"')
