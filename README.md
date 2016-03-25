@@ -1,3 +1,7 @@
+[ember-frost-core]: https://github.com/ciena-frost/ember-frost-core
+ 
+# <span style="color: red">This repo has been ported to</span> [ember-frost-core] <span style="color: red"> - no more PRs will be accepted.</span>
+
 [ci-img]: https://travis-ci.org/ciena-frost/ember-frost-icons.svg "Travis CI Build Status"
 [ci-url]: https://travis-ci.org/ciena-frost/ember-frost-icons
 
